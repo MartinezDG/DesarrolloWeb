@@ -13,13 +13,11 @@
 
 </body>
 
-<script type="module" src="./index.js"></script>
+
 <script type="module">
-    import { collection } from "./index.js"; // Importa collection de index.js
-    // Aquí no volvemos a crear el objeto, simplemente lo usamos después de que se haya creado en index.js
+    import { collection } from "./index.js"; // Importa el objeto collection de index.js
 
     // Acceder al objeto collection
-    // Como el código en index.js ya ha creado el objeto, lo puedes usar aquí sin necesidad de recrearlo
     window.addEventListener('DOMContentLoaded', () => {
         // Obtener el div donde queremos mostrar los datos
         let div = document.getElementById("todo-list");
