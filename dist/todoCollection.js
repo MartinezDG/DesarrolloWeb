@@ -1,4 +1,4 @@
-import { TodoItem } from "./todoItem";
+import { TodoItem } from "./todoItem.js";
 export class TodoCollection {
     constructor(userName, todoItems = []) {
         this.userName = userName;
